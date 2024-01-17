@@ -1,0 +1,22 @@
+/* a:link{
+    color: red;
+}
+a:hover{
+    color: cadetblue;
+}
+a:visited{
+    color: blue;
+}
+a:active{
+    color: yellow;
+} */
+
+h1,h2{
+    background-color: yellow;
+    display: inline-block;
+    padding: 5px 10px;
+}
+span,a{
+    background-color: red;
+    display: block;
+}
