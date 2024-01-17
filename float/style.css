@@ -1,0 +1,28 @@
+.scroll{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    float: left;
+    overflow: scroll;
+}
+.visible{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    float: left;
+    overflow: visible;
+}
+.hidden{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    float: right;
+    overflow: hidden;
+}
+.auto{
+    width: 100px;
+    height: 100px;
+    border: 1px solid pink;
+    float: right;
+    overflow: auto;
+}

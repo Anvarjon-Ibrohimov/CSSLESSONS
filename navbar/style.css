@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+}
+.container{
+    width: 1260px;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    /* border: 2px solid red; */
+    align-items: center;
+    padding: 5px 15px;
+    box-shadow: 5px 10px 15px rgba(0,0,0,0.7);
+    border-radius: 40px;
+}
+.logo h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: blue;
+    letter-spacing: 2px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 0px 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: blue;
+    font-size: 29px;
+}
