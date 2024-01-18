@@ -1,0 +1,33 @@
+*{
+    transition: all 0.3s ease-in-out;
+}
+.grid-container{
+    width: 700px;
+    height: 700px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px; 
+    align-content: center;
+    justify-content: center;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    gap: 10px;
+    /* row-gap: 10px; */
+    /* column-gap: 15px; */
+}
+.grid-item{
+    background-color: green;
+    background-image: url(angelina.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.grid-item:hover{
+    transform: scale(1.1);
+}
