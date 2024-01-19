@@ -1,0 +1,66 @@
+/* 
+    position
+    1. static
+    2.relative
+    3.absolute
+    4.fixed
+    5.sticky
+
+    top
+    left
+    bottom
+    right
+*/
+
+/* .one{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.two{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: static;
+} */
+.one{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+}
+.two{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50px;
+}
+.btnCall{
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    background-color: green;
+    position: fixed;
+    left: 10px;
+    top: 50%;
+}
+.three{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: sticky;
+    top: 70px;
+    left: 40px;
+}
+
+.four{
+    width: 600px;
+    height: 600px;
+    border: 3px solid green;
+}
