@@ -1,0 +1,20 @@
+*{
+    transition: all 0.3s ease-in-out;
+}
+.one{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* transform: translate(30px,50px);
+    transform: rotate(-30deg);
+    transform: scaleX(2);
+    transform: scaleY(3);
+    transform: skew(20deg); */
+}
+.one:hover{
+    /* transform: translate(30px,50px); */
+    /* transform: translate(50px,50px); */
+    transform: rotate(-60deg);
+    /* transform: scale(1.2); */
+    /* transform: skew(30deg); */
+}
