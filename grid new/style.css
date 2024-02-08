@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+.grid-container{
+    width: 650px;
+    height: 650px;
+    background-color: blue;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+}
+.grid-item{
+    background-color: green;
+}
+.grid-item:hover{
+    transform: scale(1.1);
+}
